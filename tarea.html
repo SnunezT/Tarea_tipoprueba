@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="tarea.css" />
 </head>
 <body>
+    <a class="Logo"><img src="Imágenes/new-minecraft-logo-transparent.png" class="Logo_minecraft" alt="Minecraft Logo"></a>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- navbar= barra de navegación bg= background ejemplo navbar-primary bg-primary-->
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">SkyCraft UHC Server</a>
+          <a class="navbar-brand" href="#"><h1>SkyCraft UHC Server</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,8 +21,8 @@
             <div class="navbar-nav ms-auto">
               <a class="nav-link" href="#" >Inicio</a>
               <a class="nav-link" href="#">Suscripciones</a>
-              <a class="nav-link" href="#">Total Cursos</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">Descripción del formato</a>
+              <a class="nav-link disabled" aria-disabled="true">Desarrolladores </a>
             </div>
           </div>
         </div>
@@ -30,22 +31,22 @@
         <div class="row">
         
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-fondo">
-                <h2> Formulario de Cursos</h2> <!-- Agregando titulo al formulario-->
+                <h2> Datos del participante</h2> <!-- Agregando titulo al formulario-->
                  <form> <!-- Agregando etiqueta formulario y dentro de esta pegamos el codigo que seleccionamos de boostrap-->
                     <div class="mb-3">
-                        <label for="Nombre_Curso" class="form-label">Curso</label>
-                        <input type="text" class="form-control" id="Nombre_Curso" placeholder="Curso" autofocus>
+                        <label for="Nickname" class="form-label">Nickname</label>
+                        <input type="text" class="form-control" id="Nickname" placeholder="Ejemplo: Pedritogame123" autofocus>
                       </div>
                       <div class="mb-3">
-                        <label for="descripcion" class="form-label">Descripcion</label>
-                        <textarea class="form-control" id="descripcion" placeholder="Descripcion" rows="3"></textarea>
+                        <label for="Correo_electronico" class="form-label">Correo electrónico</label>
+                        <textarea type="text" class="form-control" id="Correo" placeholder="ejemplo@tucorreo.com"></textarea>
                       </div>
                       <div class="mb-3"> <!-- Agregamos la cantidad de cursos-->
-                        <label for="cantidad" class="form-label">Cantidad Curso</label>
-                        <input type="number" class="form-control" id="cantidad"/>
+                        <label for="Contraeña" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="Contraseña"/>
                       </div>
                       <div class="d-grid gap-2"> <!-- Agregando estilo de block a los botones-->
-                        <button class="btn btn-success"> Guardar </button> <!--Dando estilo al boton Guardar-->
+                        <button class="btn btn-success"> Crear cuenta </button> <!--Dando estilo al boton Guardar-->
                         <button class="btn btn-secondary"> Limpiar </button> <!--Dando estilo al boton Limpiar-->
                     </div>
                  </form>
@@ -59,19 +60,29 @@
                            <tr>
                             <th class="centrado"> # </th> <!--Agregando clases centrado-->
                             <th class="centrado">Nickname</th>
-                            <th class="centrado">Cantidad de Secciones</th>
+                            <th class="centrado">Jugadores eliminados</th>
                            </tr>
                     </thead>
                     <tbody> <!--Creando el body-->
                         <tr>
                             <td class="centrado"> 1 </td>
-                            <td class="centrado">Diseño Web</td>
-                            <td class="centrado">3</td>
+                            <td class="centrado">Miguelgamer</td>
+                            <td class="centrado">15</td>
                         </tr>
                         <tr>
                             <td class="centrado"> 2 </td>
-                            <td class="centrado">Programacion Web</td>
-                            <td class="centrado">2</td>
+                            <td class="centrado">Farfadox</td>
+                            <td class="centrado">13</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado"> 3 </td>
+                            <td class="centrado">Spreen</td>
+                            <td class="centrado">10</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado"> 4 </td>
+                            <td class="centrado">RichMC</td>
+                            <td class="centrado">8</td>
                         </tr>
                     </tbody>
                 </table>
