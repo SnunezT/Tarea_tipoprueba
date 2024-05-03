@@ -14,10 +14,13 @@ body{
 }
 
 .Logo_minecraft{
-    width: 100%;
+    width: 640px;
     height: 450px;
-    align-self: center;
 
+}
+
+.Logo{
+    align-items: center;
 }
 
     
