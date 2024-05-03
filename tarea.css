@@ -1,0 +1,13 @@
+body{
+    background-image: url("Imágenes/fondo.jpg");
+}
+.bg-fondo{
+   background-color:aliceblue;
+}
+#descripcion{
+    resize: none;
+}
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+}
